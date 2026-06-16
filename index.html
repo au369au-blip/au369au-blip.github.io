@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高雄景觀之旅 - 85大樓・龍虎塔・美麗島</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', 'Noto Sans TC', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    color: #fff;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px 30px;
+  }
+  header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #f093fb, #f5576c, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
+  }
+  header p {
+    margin-top: 10px;
+    color: #aaa;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .card {
+    background: rgba(255,255,255,0.06);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: transform 0.4s, box-shadow 0.4s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .card-img {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+  }
+  .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+    display: block;
+  }
+  .card:hover .card-img img {
+    transform: scale(1.08);
+  }
+  .card-body {
+    padding: 25px;
+  }
+  .card-body h2 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+  .card-body p {
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+  .card-btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  .card:hover .card-btn {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(79,172,254,0.4);
+  }
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-size: 0.85rem;
+  }
+  footer a { color: #4facfe; text-decoration: none; }
+  @media (max-width: 900px) {
+    header h1 { font-size: 2rem; }
+    .card { width: 90%; max-width: 450px; }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>高雄 · 經典景觀</h1>
+    <p>91422136 陳銘益</p>
+    <p>Kaohsiung — 85 Sky Tower · Dragon & Tiger Pagodas · Dome of Light</p>
+  </header>
+
+<div class="gallery">
+
+  <!-- 85大樓 -->
+  <a href="85.html" style="text-decoration:none;color:inherit;display:block;">
+  <div class="card">
+    <div class="card-img">
+      <img src="MindVideo_20260609214944_570.1.png"
+           alt="高雄85大樓">
+    </div>
+    <div class="card-body">
+      <h2>🏙 85大樓</h2>
+      <p>高雄85大樓是南台灣最醒目的天際線標誌，樓高347.5公尺、地上85層，1997年落成時名列世界第八高建築，至今仍是高雄最高的摩天大樓與台灣第二高樓，由設計台北101的李祖原建築師事務所設計，外觀取自「高」字意象。74樓觀景台可360度俯瞰高雄港與市區全景。</p>
+      <span class="card-btn">查看完整介紹 →</span>
+    </div>
+  </div>
+  </a>
+
+  <!-- 龍虎塔 -->
+  <a href="longhutai.html" style="text-decoration:none;color:inherit;display:block;">
+  <div class="card">
+    <div class="card-img">
+      <img src="MindVideo_20260609214944_570.2.png"
+           alt="高雄龍虎塔">
+    </div>
+    <div class="card-body">
+      <h2>🐉🐯 龍虎塔</h2>
+      <p>龍虎塔位於左營蓮池潭畔，建於1976年，雙塔各高七層以拱橋相連，獨特的「龍口進、虎口出」動線象徵消災解厄納福。塔身內外布滿二十四孝、封神榜等精緻彩繪與浮雕，登塔頂可環眺蓮池潭與半屏山美景，是高雄最具代表性的文化地標之一。</p>
+      <span class="card-btn">查看完整介紹 →</span>
+    </div>
+  </div>
+  </a>
+
+  <!-- 美麗島站 -->
+  <a href="meilidao.html" style="text-decoration:none;color:inherit;display:block;">
+  <div class="card">
+    <div class="card-img">
+      <img src="MindVideo_20260609214944_570.3.png"
+           alt="美麗島捷運站光之穹頂">
+    </div>
+    <div class="card-body">
+      <h2>🌈 美麗島站 · 光之穹頂</h2>
+      <p>美麗島捷運站是紅橘線交會站，大廳「光之穹頂」由水仙大師耗時四年半創作，以4500片手工彩繪玻璃構成直徑30公尺的世界最大玻璃鑲嵌藝術品，分為水、土、光、火四大主題。免費參觀，是高雄最震撼的免費景點。</p>
+      <span class="card-btn">查看完整介紹 →</span>
+    </div>
+  </div>
+  </a>
+
+  <!-- 心得 -->
+  <a href="xinde.html" style="text-decoration:none;color:inherit;display:block;">
+  <div class="card">
+    <div class="card-img" style="display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.04);">
+      <span style="font-size:5rem;">📐</span>
+    </div>
+    <div class="card-body">
+      <h2>📐 正修建築科 一年心得</h2>
+      <p>回顧在正修科技大學建築科這一年的學習歷程——從基本設計课的吸管結構、建築設計的基地觀察，到結構力學與材料的實際應用，以及評圖與挫折中獲得的成長。</p>
+      <span class="card-btn">閱讀心得 →</span>
+    </div>
+  </div>
+  </a>
+
+</div>
+
+<footer>
+   圖片授權：<a href="https://commons.wikimedia.org/" target="_blank">Wikimedia Commons</a> (CC-BY-SA) ｜
+  <a href="https://github.com/" target="_blank">GitHub</a>
+</footer>
+
+</body>
+</html>
